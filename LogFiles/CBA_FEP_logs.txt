@@ -1,0 +1,1324 @@
+CBA FEP is running, press any key to stop it... 05/Sep/2015 07:26:06 PM
+
+CBA FEP is running, press any key to stop it... 05/Sep/2015 07:36:35 PM
+
+CBA FEP is running, press any key to stop it... 06/Sep/2015 04:52:20 PM
+
+Connected to ==> Acquirer 06/Sep/2015 04:55:09 PM
+
+Connected to ==> Acquirer 06/Sep/2015 06:36:14 PM
+
+Connected to ==> Acquirer 06/Sep/2015 06:59:43 PM
+
+CBA FEP is running, press any key to stop it... 06/Sep/2015 07:07:12 PM
+
+Connected to ==> Acquirer 06/Sep/2015 07:07:54 PM
+
+Connected to ==> Acquirer 06/Sep/2015 07:13:54 PM
+
+Connected to ==> Acquirer 06/Sep/2015 07:19:54 PM
+
+Connected to ==> Acquirer 06/Sep/2015 07:25:54 PM
+
+Connected to ==> Acquirer 06/Sep/2015 07:31:54 PM
+
+Connected to ==> Acquirer 06/Sep/2015 07:37:54 PM
+
+CBA FEP is running, press any key to stop it... 06/Sep/2015 07:39:08 PM
+
+Connected to ==> Acquirer 06/Sep/2015 07:39:23 PM
+
+CBA FEP is running, press any key to stop it... 06/Sep/2015 07:42:22 PM
+
+CBA FEP is running, press any key to stop it... 06/Sep/2015 08:30:51 PM
+
+Connected to ==> Acquirer 06/Sep/2015 08:31:13 PM
+
+CBA FEP is running, press any key to stop it... 06/Sep/2015 08:40:11 PM
+
+Connected to ==> Acquirer 06/Sep/2015 08:41:15 PM
+
+Reversal message Received... 06/Sep/2015 08:41:25 PM
+
+Reversal message Received... 06/Sep/2015 08:42:47 PM
+
+CBA FEP is running, press any key to stop it... 06/Sep/2015 09:17:29 PM
+
+Connected to ==> Acquirer 06/Sep/2015 09:22:12 PM
+
+Reversal message Received... 06/Sep/2015 09:22:17 PM
+
+CBA FEP is running, press any key to stop it... 07/Sep/2015 09:04:47 AM
+
+Connected to ==> Acquirer 07/Sep/2015 09:06:09 AM
+
+Connected to ==> Acquirer 07/Sep/2015 09:11:11 AM
+
+Connected to ==> Acquirer 07/Sep/2015 09:16:12 AM
+
+CBA FEP is running, press any key to stop it... 07/Sep/2015 09:35:03 AM
+
+Connected to ==> Acquirer 07/Sep/2015 09:36:46 AM
+
+Connected to ==> Acquirer 07/Sep/2015 09:41:48 AM
+
+Connected to ==> Acquirer 07/Sep/2015 09:46:49 AM
+
+Connected to ==> Acquirer 07/Sep/2015 09:51:51 AM
+
+Connected to ==> Acquirer 07/Sep/2015 09:56:52 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:01:53 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:06:53 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:11:54 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:16:55 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:21:55 AM
+
+CBA FEP is running, press any key to stop it... 07/Sep/2015 10:25:06 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:25:10 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:28:18 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:33:19 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:38:20 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:54:21 AM
+
+Connected to ==> Acquirer 07/Sep/2015 10:59:23 AM
+
+Connected to ==> Acquirer 07/Sep/2015 11:04:24 AM
+
+Connected to ==> Acquirer 07/Sep/2015 11:09:26 AM
+
+Connected to ==> Acquirer 07/Sep/2015 11:14:26 AM
+
+Connected to ==> Acquirer 07/Sep/2015 11:19:27 AM
+
+Connected to ==> Acquirer 07/Sep/2015 11:24:29 AM
+
+Connected to ==> Acquirer 07/Sep/2015 11:29:29 AM
+
+Connected to ==> Acquirer 07/Sep/2015 11:34:30 AM
+
+Connected to ==> Acquirer 07/Sep/2015 11:39:30 AM
+
+Connected to ==> Acquirer 07/Sep/2015 11:44:31 AM
+
+CBA FEP is running, press any key to stop it... 07/Sep/2015 12:22:46 PM
+
+Connected to ==> Acquirer 07/Sep/2015 12:23:42 PM
+
+CBA FEP is running, press any key to stop it... 07/Sep/2015 12:40:52 PM
+
+Connected to ==> Acquirer 07/Sep/2015 12:42:38 PM
+
+CBA FEP is running, press any key to stop it... 07/Sep/2015 12:47:44 PM
+
+Connected to ==> Acquirer 07/Sep/2015 12:48:38 PM
+
+CBA FEP is running, press any key to stop it... 07/Sep/2015 01:32:46 PM
+
+Connected to ==> Acquirer 07/Sep/2015 01:33:00 PM
+
+Connected to ==> Acquirer 07/Sep/2015 01:38:35 PM
+
+Connected to ==> Acquirer 07/Sep/2015 01:43:36 PM
+
+Connected to ==> Acquirer 07/Sep/2015 01:48:38 PM
+
+Connected to ==> Acquirer 07/Sep/2015 02:26:05 PM
+
+Connected to ==> Acquirer 07/Sep/2015 02:31:06 PM
+
+Connected to ==> Acquirer 07/Sep/2015 02:36:06 PM
+
+Connected to ==> Acquirer 07/Sep/2015 02:41:07 PM
+
+Connected to ==> Acquirer 07/Sep/2015 02:46:09 PM
+
+Connected to ==> Acquirer 07/Sep/2015 02:51:18 PM
+
+Connected to ==> Acquirer 07/Sep/2015 02:56:18 PM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 08:14:16 AM
+
+Connected to ==> Acquirer 09/Sep/2015 08:22:21 AM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 08:48:24 AM
+
+Connected to ==> Acquirer 09/Sep/2015 08:48:46 AM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 08:52:53 AM
+
+Connected to ==> Acquirer 09/Sep/2015 08:58:25 AM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 09:06:59 AM
+
+Connected to ==> Acquirer 09/Sep/2015 09:07:37 AM
+
+Connected to ==> Acquirer 09/Sep/2015 09:09:27 AM
+
+Reversal message Received... 09/Sep/2015 09:09:33 AM
+
+Connected to ==> Acquirer 09/Sep/2015 09:14:29 AM
+
+Connected to ==> Acquirer 09/Sep/2015 09:19:29 AM
+
+Connected to ==> Acquirer 09/Sep/2015 09:24:30 AM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 11:04:22 AM
+
+Connected to ==> Acquirer 09/Sep/2015 11:11:23 AM
+
+Connected to ==> Acquirer 09/Sep/2015 11:16:25 AM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 11:22:40 AM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 11:35:33 AM
+
+Connected to ==> Acquirer 09/Sep/2015 11:35:54 AM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 02:17:27 PM
+
+Connected to ==> Acquirer 09/Sep/2015 02:18:53 PM
+
+Connected to ==> Acquirer 09/Sep/2015 02:23:55 PM
+
+Connected to ==> Acquirer 09/Sep/2015 02:28:56 PM
+
+Connected to ==> Acquirer 09/Sep/2015 02:31:37 PM
+
+Reversal message Received... 09/Sep/2015 02:31:39 PM
+
+Connected to ==> Acquirer 09/Sep/2015 02:36:39 PM
+
+Connected to ==> Acquirer 09/Sep/2015 02:41:39 PM
+
+Connected to ==> Acquirer 09/Sep/2015 02:46:40 PM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 03:03:39 PM
+
+Connected to ==> Acquirer 09/Sep/2015 03:11:39 PM
+
+Reversal message Received... 09/Sep/2015 03:11:44 PM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 04:27:08 PM
+
+Connected to ==> Acquirer 09/Sep/2015 04:27:19 PM
+
+Reversal message Received... 09/Sep/2015 04:27:24 PM
+
+Connected to ==> Acquirer 09/Sep/2015 04:32:21 PM
+
+Connected to ==> Acquirer 09/Sep/2015 04:37:21 PM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 05:04:03 PM
+
+Connected to ==> Acquirer 09/Sep/2015 05:04:19 PM
+
+Reversal message Received... 09/Sep/2015 05:04:24 PM
+
+Connected to ==> Acquirer 09/Sep/2015 05:09:21 PM
+
+Connected to ==> Acquirer 09/Sep/2015 05:14:21 PM
+
+Connected to ==> Acquirer 09/Sep/2015 05:21:05 PM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 05:34:34 PM
+
+Connected to ==> Acquirer 09/Sep/2015 05:34:44 PM
+
+Reversal message Received... 09/Sep/2015 05:34:49 PM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 07:17:30 PM
+
+Connected to ==> Acquirer 09/Sep/2015 07:17:52 PM
+
+CBA FEP is running, press any key to stop it... 09/Sep/2015 07:32:19 PM
+
+Connected to ==> Acquirer 09/Sep/2015 07:34:00 PM
+
+Reversal message Received... 09/Sep/2015 07:34:06 PM
+
+CBA FEP is running, press any key to stop it... 10/Sep/2015 10:02:14 AM
+
+Connected to ==> Acquirer 10/Sep/2015 10:02:21 AM
+
+Reversal message Received... 10/Sep/2015 10:02:28 AM
+
+Connected to ==> Acquirer 10/Sep/2015 10:22:52 AM
+
+Connected to ==> Acquirer 10/Sep/2015 10:25:20 AM
+
+CBA FEP is running, press any key to stop it... 10/Sep/2015 10:37:30 AM
+
+Connected to ==> Acquirer 10/Sep/2015 10:51:29 AM
+
+Connected to ==> Acquirer 10/Sep/2015 10:52:48 AM
+
+Connected to ==> Acquirer 10/Sep/2015 10:53:28 AM
+
+Connected to ==> Acquirer 10/Sep/2015 11:07:08 AM
+
+CBA FEP is running, press any key to stop it... 11/Sep/2015 12:47:00 PM
+
+Connected to ==> Acquirer 11/Sep/2015 01:10:56 PM
+
+CBA FEP is running, press any key to stop it... 11/Sep/2015 01:34:49 PM
+
+Connected to ==> Acquirer 11/Sep/2015 01:34:54 PM
+
+Connected to ==> Acquirer 11/Sep/2015 01:40:00 PM
+
+Reversal message Received... 11/Sep/2015 01:40:04 PM
+
+Connected to ==> Acquirer 11/Sep/2015 02:18:24 PM
+
+Connected to ==> Acquirer 11/Sep/2015 02:23:25 PM
+
+Connected to ==> Acquirer 11/Sep/2015 02:28:26 PM
+
+Connected to ==> Acquirer 11/Sep/2015 02:33:28 PM
+
+Connected to ==> Acquirer 11/Sep/2015 02:38:32 PM
+
+Connected to ==> Acquirer 11/Sep/2015 02:43:40 PM
+
+Connected to ==> Acquirer 11/Sep/2015 02:48:56 PM
+
+Connected to ==> Acquirer 11/Sep/2015 02:54:28 PM
+
+Connected to ==> Acquirer 11/Sep/2015 03:00:28 PM
+
+Connected to ==> Acquirer 11/Sep/2015 03:06:28 PM
+
+Connected to ==> Acquirer 11/Sep/2015 03:12:28 PM
+
+Connected to ==> Acquirer 11/Sep/2015 03:17:29 PM
+
+Connected to ==> Acquirer 11/Sep/2015 03:22:30 PM
+
+Connected to ==> Acquirer 11/Sep/2015 03:27:34 PM
+
+CBA FEP is running, press any key to stop it... 11/Sep/2015 04:08:48 PM
+
+Connected to ==> Acquirer 11/Sep/2015 04:09:00 PM
+
+Reversal message Received... 11/Sep/2015 04:09:04 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 04:09:04 PM
+
+CBA FEP is running, press any key to stop it... 11/Sep/2015 04:29:32 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 04:51:25 PM
+
+CBA FEP is running, press any key to stop it... 11/Sep/2015 04:51:25 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:12:37 PM
+
+CBA FEP is running, press any key to stop it... 11/Sep/2015 05:12:37 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:13:55 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:14:18 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:14:18 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:14:19 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:19:57 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:20:00 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:20:00 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:20:00 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:27:17 PM
+
+CBA FEP is running, press any key to stop it... 11/Sep/2015 05:27:17 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:27:36 PM
+
+Reversal message Received... 11/Sep/2015 05:27:40 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:27:40 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:27:40 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:27:40 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:27:40 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:27:40 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:28:20 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:28:22 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:28:22 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:28:22 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:28:22 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:28:22 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:39:06 PM
+
+CBA FEP is running, press any key to stop it... 11/Sep/2015 05:39:06 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:40:58 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:41:02 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:41:02 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:41:21 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:41:43 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:41:43 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:41:43 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:46:43 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:46:43 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:46:44 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:49:10 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:49:10 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:53:03 PM
+
+Reversal message Received... 11/Sep/2015 05:53:05 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:53:05 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:53:05 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:53:05 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:53:05 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:53:05 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:54:04 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 05:54:26 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 05:54:26 PM
+
+Connected to ==> Acquirer 11/Sep/2015 05:54:26 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 11:26:17 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 11:26:17 PM
+
+Connected to ==> Acquirer 11/Sep/2015 11:26:18 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 11:31:18 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 11:31:18 PM
+
+Connected to ==> Acquirer 11/Sep/2015 11:31:18 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 11:36:18 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 11:36:18 PM
+
+Connected to ==> Acquirer 11/Sep/2015 11:36:19 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 11:41:19 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 11:41:19 PM
+
+Connected to ==> Acquirer 11/Sep/2015 11:41:19 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 11:46:19 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 11:46:19 PM
+
+Connected to ==> Acquirer 11/Sep/2015 11:46:19 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 11:51:19 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 11:51:19 PM
+
+Connected to ==> Acquirer 11/Sep/2015 11:51:20 PM
+
+Switch disconnected from =/=> Acquirer 11/Sep/2015 11:56:20 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 11/Sep/2015 11:56:20 PM
+
+Connected to ==> Acquirer 11/Sep/2015 11:56:20 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 13/Sep/2015 09:39:26 PM
+
+CBA FEP is running, press any key to stop it... 13/Sep/2015 09:39:26 PM
+
+Connected to ==> Acquirer 13/Sep/2015 09:39:54 PM
+
+Reversal message Received... 13/Sep/2015 09:40:04 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 08:50:05 AM
+
+CBA FEP is running, press any key to stop it... 14/Sep/2015 08:50:05 AM
+
+Connected to ==> Acquirer 14/Sep/2015 08:50:34 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 08:55:34 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 08:55:34 AM
+
+Connected to ==> Acquirer 14/Sep/2015 08:56:34 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 09:01:34 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 09:01:34 AM
+
+Connected to ==> Acquirer 14/Sep/2015 09:02:34 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 09:07:34 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 09:07:34 AM
+
+Connected to ==> Acquirer 14/Sep/2015 09:08:34 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 09:13:34 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 09:13:34 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 09:15:34 AM
+
+CBA FEP is running, press any key to stop it... 14/Sep/2015 09:15:34 AM
+
+Connected to ==> Acquirer 14/Sep/2015 09:18:16 AM
+
+Reversal message Received... 14/Sep/2015 09:18:21 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 09:18:21 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 09:18:21 AM
+
+Connected to ==> Acquirer 14/Sep/2015 09:18:21 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 11:03:54 AM
+
+CBA FEP is running, press any key to stop it... 14/Sep/2015 11:03:55 AM
+
+Connected to ==> Acquirer 14/Sep/2015 11:04:52 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 11:05:49 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 11:05:49 AM
+
+Connected to ==> Acquirer 14/Sep/2015 11:06:04 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 11:11:04 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 11:11:04 AM
+
+Connected to ==> Acquirer 14/Sep/2015 11:11:16 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 11:16:16 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 11:16:16 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 11:33:41 AM
+
+CBA FEP is running, press any key to stop it... 14/Sep/2015 11:33:41 AM
+
+Connected to ==> Acquirer 14/Sep/2015 11:33:57 AM
+
+Reversal message Received... 14/Sep/2015 11:34:02 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 11:34:24 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 11:34:30 AM
+
+Connected to ==> Acquirer 14/Sep/2015 11:43:10 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 11:44:46 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 11:45:34 AM
+
+Connected to ==> Acquirer 14/Sep/2015 11:47:02 AM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 11:50:42 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 11:50:42 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 12:53:10 PM
+
+CBA FEP is running, press any key to stop it... 14/Sep/2015 12:53:10 PM
+
+Connected to ==> Acquirer 14/Sep/2015 12:53:51 PM
+
+Reversal message Received... 14/Sep/2015 12:53:56 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 12:53:56 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 12:53:56 PM
+
+Connected to ==> Acquirer 14/Sep/2015 12:53:56 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 12:53:56 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 12:53:56 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:05:12 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 01:05:35 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:05:35 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:05:49 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 01:07:32 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:07:32 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:14:58 PM
+
+Reversal message Received... 14/Sep/2015 01:15:01 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 01:15:01 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:15:01 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:15:01 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 01:15:01 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:15:01 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:21:17 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 01:21:39 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:21:39 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:22:00 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 01:27:00 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:27:00 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:27:01 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 01:31:24 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:31:24 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:34:28 PM
+
+Reversal message Received... 14/Sep/2015 01:34:30 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 01:34:30 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:34:30 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:34:30 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 01:34:30 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:34:30 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:35:52 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 01:35:54 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:35:54 PM
+
+Connected to ==> Acquirer 14/Sep/2015 01:35:54 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 01:36:03 PM
+
+Connected to ==> Acquirer 14/Sep/2015 02:03:01 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 02:03:03 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 02:03:03 PM
+
+Connected to ==> Acquirer 14/Sep/2015 02:03:03 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 02:03:03 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 02:03:03 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 02:14:51 PM
+
+CBA FEP is running, press any key to stop it... 14/Sep/2015 02:14:51 PM
+
+Connected to ==> Acquirer 14/Sep/2015 02:17:00 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 02:17:04 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 02:17:04 PM
+
+Connected to ==> Acquirer 14/Sep/2015 02:17:04 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 02:17:04 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 02:17:04 PM
+
+Connected to ==> Acquirer 14/Sep/2015 02:17:25 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 02:17:48 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 02:17:48 PM
+
+Connected to ==> Acquirer 14/Sep/2015 02:22:19 PM
+
+Reversal message Received... 14/Sep/2015 02:22:21 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 02:22:21 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 02:22:21 PM
+
+Connected to ==> Acquirer 14/Sep/2015 02:22:21 PM
+
+Switch disconnected from =/=> Acquirer 14/Sep/2015 02:22:21 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 14/Sep/2015 02:22:21 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 10:40:34 AM
+
+CBA FEP is running, press any key to stop it... 16/Sep/2015 10:40:34 AM
+
+Connected to ==> Acquirer 16/Sep/2015 10:43:01 AM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 10:43:24 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 10:43:24 AM
+
+Connected to ==> Acquirer 16/Sep/2015 10:43:50 AM
+
+Reversal message Received... 16/Sep/2015 10:43:52 AM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 10:43:52 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 10:43:52 AM
+
+Connected to ==> Acquirer 16/Sep/2015 10:43:52 AM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 10:43:52 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 10:43:52 AM
+
+Connected to ==> Acquirer 16/Sep/2015 10:58:39 AM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 10:59:02 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 10:59:02 AM
+
+Connected to ==> Acquirer 16/Sep/2015 10:59:06 AM
+
+Reversal message Received... 16/Sep/2015 10:59:08 AM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 10:59:08 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 10:59:08 AM
+
+Connected to ==> Acquirer 16/Sep/2015 10:59:08 AM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 10:59:08 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 10:59:08 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 02:16:35 PM
+
+CBA FEP is running, press any key to stop it... 16/Sep/2015 02:16:35 PM
+
+Connected to ==> Acquirer 16/Sep/2015 04:44:17 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 04:44:24 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 04:44:24 PM
+
+Connected to ==> Acquirer 16/Sep/2015 04:44:24 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 04:44:24 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 04:44:24 PM
+
+Connected to ==> Acquirer 16/Sep/2015 04:47:49 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 04:47:51 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 04:47:51 PM
+
+Connected to ==> Acquirer 16/Sep/2015 04:47:51 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 04:47:51 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 04:47:51 PM
+
+Connected to ==> Acquirer 16/Sep/2015 04:48:02 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 04:48:04 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 04:48:04 PM
+
+Connected to ==> Acquirer 16/Sep/2015 04:48:04 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 04:48:04 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 04:48:04 PM
+
+Connected to ==> Acquirer 16/Sep/2015 05:33:31 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 05:33:33 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 05:33:33 PM
+
+Connected to ==> Acquirer 16/Sep/2015 05:33:33 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 05:33:33 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 05:33:33 PM
+
+Connected to ==> Acquirer 16/Sep/2015 05:33:50 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 05:33:52 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 05:33:52 PM
+
+Connected to ==> Acquirer 16/Sep/2015 05:33:52 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 05:33:52 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 05:33:52 PM
+
+Connected to ==> Acquirer 16/Sep/2015 05:37:11 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 05:37:15 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 05:37:15 PM
+
+Switch disconnected from =/=> Acquirer 16/Sep/2015 05:37:15 PM
+
+Connected to ==> Acquirer 16/Sep/2015 05:37:15 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 16/Sep/2015 05:37:15 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 08:27:22 AM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 08:27:22 AM
+
+Connected to ==> Acquirer 17/Sep/2015 09:17:03 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 09:17:25 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 09:17:25 AM
+
+Connected to ==> Acquirer 17/Sep/2015 09:17:30 AM
+
+Reversal message Received... 17/Sep/2015 09:17:32 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 09:17:32 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 09:17:32 AM
+
+Connected to ==> Acquirer 17/Sep/2015 09:17:32 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 09:17:32 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 09:17:32 AM
+
+Connected to ==> Acquirer 17/Sep/2015 09:39:34 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 09:39:45 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 09:39:46 AM
+
+Connected to ==> Acquirer 17/Sep/2015 10:00:07 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 10:06:12 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:06:12 AM
+
+Connected to ==> Acquirer 17/Sep/2015 10:08:16 AM
+
+Reversal message Received... 17/Sep/2015 10:08:18 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 10:08:18 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:08:18 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 10:08:18 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:08:18 AM
+
+Connected to ==> Acquirer 17/Sep/2015 10:08:18 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:22:48 AM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 10:22:48 AM
+
+Connected to ==> Acquirer 17/Sep/2015 10:25:30 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 10:34:14 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:34:14 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:49:29 AM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 10:49:29 AM
+
+Connected to ==> Acquirer 17/Sep/2015 10:56:45 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 10:57:11 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:57:11 AM
+
+Connected to ==> Acquirer 17/Sep/2015 10:57:12 AM
+
+Reversal message Received... 17/Sep/2015 10:57:23 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 10:57:36 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:57:36 AM
+
+Connected to ==> Acquirer 17/Sep/2015 10:57:38 AM
+
+Reversal message Received... 17/Sep/2015 10:57:44 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 10:57:44 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:57:44 AM
+
+Connected to ==> Acquirer 17/Sep/2015 10:57:44 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 10:57:44 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:57:44 AM
+
+Connected to ==> Acquirer 17/Sep/2015 10:57:44 AM
+
+Reversal message Received... 17/Sep/2015 10:57:48 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 10:57:48 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:57:48 AM
+
+Connected to ==> Acquirer 17/Sep/2015 10:57:48 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 10:57:48 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 10:57:48 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 11:17:19 AM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 11:17:19 AM
+
+Connected to ==> Acquirer 17/Sep/2015 11:36:37 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 11:36:41 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 11:36:41 AM
+
+Connected to ==> Acquirer 17/Sep/2015 11:36:42 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 11:36:42 AM
+
+Connected to ==> Acquirer 17/Sep/2015 11:44:56 AM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 11:44:58 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 11:44:58 AM
+
+Connected to ==> Acquirer 17/Sep/2015 11:44:58 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 11:44:58 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 12:55:30 PM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 12:55:30 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2022 17/Sep/2015 12:59:44 PM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 12:59:44 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:00:17 PM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 01:00:17 PM
+
+Connected to ==> Acquirer 17/Sep/2015 01:04:27 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 01:04:31 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:04:31 PM
+
+Connected to ==> Acquirer 17/Sep/2015 01:04:31 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 01:04:31 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:04:31 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:09:28 PM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 01:09:28 PM
+
+Connected to ==> Acquirer 17/Sep/2015 01:12:05 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 01:12:10 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:12:10 PM
+
+Connected to ==> Acquirer 17/Sep/2015 01:12:10 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 01:12:10 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:12:10 PM
+
+Connected to ==> Acquirer 17/Sep/2015 01:12:50 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 01:12:52 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:12:52 PM
+
+Connected to ==> Acquirer 17/Sep/2015 01:12:52 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 01:12:52 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:12:52 PM
+
+Connected to ==> Acquirer 17/Sep/2015 01:13:10 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 01:13:12 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:13:12 PM
+
+Connected to ==> Acquirer 17/Sep/2015 01:13:12 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 01:13:12 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:13:12 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:50:31 PM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 01:50:31 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 01:56:20 PM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 01:56:20 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 04:15:58 PM
+
+CBA FEP is running, press any key to stop it... 17/Sep/2015 04:15:58 PM
+
+Connected to ==> Acquirer 17/Sep/2015 04:38:49 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 04:38:54 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 04:38:54 PM
+
+Connected to ==> Acquirer 17/Sep/2015 04:38:54 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 04:38:54 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 04:38:54 PM
+
+Connected to ==> Acquirer 17/Sep/2015 04:50:27 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 04:50:29 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 04:50:30 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 04:50:30 PM
+
+Connected to ==> Acquirer 17/Sep/2015 04:50:30 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 04:50:30 PM
+
+Connected to ==> Acquirer 17/Sep/2015 04:59:42 PM
+
+Switch disconnected from =/=> Acquirer 17/Sep/2015 04:59:44 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 04:59:44 PM
+
+Connected to ==> Acquirer 17/Sep/2015 04:59:44 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 17/Sep/2015 04:59:44 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 08:25:50 AM
+
+CBA FEP is running, press any key to stop it... 18/Sep/2015 08:25:50 AM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 03:07:13 PM
+
+CBA FEP is running, press any key to stop it... 18/Sep/2015 03:07:13 PM
+
+Connected to ==> Acquirer 18/Sep/2015 03:13:46 PM
+
+Switch disconnected from =/=> Acquirer 18/Sep/2015 03:13:54 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 03:13:54 PM
+
+Connected to ==> Acquirer 18/Sep/2015 03:13:54 PM
+
+Switch disconnected from =/=> Acquirer 18/Sep/2015 03:13:54 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 03:13:54 PM
+
+Connected to ==> Acquirer 18/Sep/2015 03:19:37 PM
+
+Switch disconnected from =/=> Acquirer 18/Sep/2015 03:19:39 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 03:19:39 PM
+
+Switch disconnected from =/=> Acquirer 18/Sep/2015 03:19:39 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 03:19:39 PM
+
+Connected to ==> Acquirer 18/Sep/2015 03:26:19 PM
+
+Switch disconnected from =/=> Acquirer 18/Sep/2015 03:26:21 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 03:26:21 PM
+
+Switch disconnected from =/=> Acquirer 18/Sep/2015 03:26:21 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 03:26:21 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 03:29:47 PM
+
+CBA FEP is running, press any key to stop it... 18/Sep/2015 03:29:47 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 04:43:10 PM
+
+CBA FEP is running, press any key to stop it... 18/Sep/2015 04:43:10 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 18/Sep/2015 06:06:39 PM
+
+CBA FEP is running, press any key to stop it... 18/Sep/2015 06:06:39 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 08:38:11 PM
+
+CBA FEP is running, press any key to stop it... 19/Sep/2015 08:38:11 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 08:38:50 PM
+
+CBA FEP is running, press any key to stop it... 19/Sep/2015 08:38:50 PM
+
+Connected to ==> Acquirer 19/Sep/2015 08:56:23 PM
+
+Switch disconnected from =/=> Acquirer 19/Sep/2015 08:56:30 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 08:56:30 PM
+
+Connected to ==> Acquirer 19/Sep/2015 08:56:30 PM
+
+Switch disconnected from =/=> Acquirer 19/Sep/2015 08:56:30 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 08:56:30 PM
+
+Connected to ==> Acquirer 19/Sep/2015 09:10:51 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 09:23:16 PM
+
+CBA FEP is running, press any key to stop it... 19/Sep/2015 09:23:16 PM
+
+Connected to ==> Acquirer 19/Sep/2015 09:24:11 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 09:37:48 PM
+
+CBA FEP is running, press any key to stop it... 19/Sep/2015 09:37:48 PM
+
+Connected to ==> Acquirer 19/Sep/2015 09:45:16 PM
+
+Switch disconnected from =/=> Acquirer 19/Sep/2015 09:45:38 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 09:45:38 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 09:51:05 PM
+
+CBA FEP is running, press any key to stop it... 19/Sep/2015 09:51:05 PM
+
+Connected to ==> Acquirer 19/Sep/2015 09:52:03 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 09:54:38 PM
+
+CBA FEP is running, press any key to stop it... 19/Sep/2015 09:54:38 PM
+
+Connected to ==> Acquirer 19/Sep/2015 09:56:44 PM
+
+Reversal message Received... 19/Sep/2015 09:56:53 PM
+
+Switch disconnected from =/=> Acquirer 19/Sep/2015 09:56:54 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 09:56:54 PM
+
+Connected to ==> Acquirer 19/Sep/2015 09:56:54 PM
+
+Switch disconnected from =/=> Acquirer 19/Sep/2015 09:56:54 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 09:56:54 PM
+
+Connected to ==> Acquirer 19/Sep/2015 10:37:55 PM
+
+Switch disconnected from =/=> Acquirer 19/Sep/2015 10:38:04 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 10:38:04 PM
+
+Connected to ==> Acquirer 19/Sep/2015 10:38:04 PM
+
+Switch disconnected from =/=> Acquirer 19/Sep/2015 10:38:04 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 10:38:04 PM
+
+Connected to ==> Acquirer 19/Sep/2015 10:44:04 PM
+
+Reversal message Received... 19/Sep/2015 10:44:06 PM
+
+Switch disconnected from =/=> Acquirer 19/Sep/2015 10:44:06 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 10:44:06 PM
+
+Connected to ==> Acquirer 19/Sep/2015 10:44:06 PM
+
+Switch disconnected from =/=> Acquirer 19/Sep/2015 10:44:06 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 19/Sep/2015 10:44:06 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 05:18:15 PM
+
+CBA FEP is running, press any key to stop it... 20/Sep/2015 05:18:15 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 05:22:36 PM
+
+CBA FEP is running, press any key to stop it... 20/Sep/2015 05:22:36 PM
+
+Connected to ==> Acquirer 20/Sep/2015 05:59:12 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 05:59:18 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 05:59:18 PM
+
+Connected to ==> Acquirer 20/Sep/2015 05:59:18 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 05:59:18 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 05:59:18 PM
+
+Connected to ==> Acquirer 20/Sep/2015 06:13:44 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 06:13:46 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 06:13:46 PM
+
+Connected to ==> Acquirer 20/Sep/2015 06:13:46 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 06:13:46 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 06:13:46 PM
+
+Connected to ==> Acquirer 20/Sep/2015 06:13:58 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 06:13:59 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 06:13:59 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 06:13:59 PM
+
+Connected to ==> Acquirer 20/Sep/2015 06:13:59 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 06:13:59 PM
+
+Connected to ==> Acquirer 20/Sep/2015 06:19:15 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 06:19:17 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 06:19:17 PM
+
+Connected to ==> Acquirer 20/Sep/2015 06:19:17 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 06:19:17 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 06:19:17 PM
+
+Connected to ==> Acquirer 20/Sep/2015 06:22:43 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 06:46:06 PM
+
+CBA FEP is running, press any key to stop it... 20/Sep/2015 06:46:06 PM
+
+Connected to ==> Acquirer 20/Sep/2015 06:53:19 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 06:53:23 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 06:53:23 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 06:53:23 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 06:53:23 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 10:12:42 PM
+
+CBA FEP is running, press any key to stop it... 20/Sep/2015 10:12:42 PM
+
+Connected to ==> Acquirer 20/Sep/2015 10:15:22 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 10:15:27 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 10:15:27 PM
+
+Connected to ==> Acquirer 20/Sep/2015 10:15:27 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 10:15:27 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 10:15:27 PM
+
+Connected to ==> Acquirer 20/Sep/2015 10:21:42 PM
+
+Reversal message Received... 20/Sep/2015 10:21:44 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 10:21:44 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 10:21:44 PM
+
+Connected to ==> Acquirer 20/Sep/2015 10:21:44 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 10:21:44 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 10:21:44 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 10:24:45 PM
+
+CBA FEP is running, press any key to stop it... 20/Sep/2015 10:24:45 PM
+
+Connected to ==> Acquirer 20/Sep/2015 10:26:22 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 10:26:26 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 10:26:26 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 10:26:26 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 10:26:26 PM
+
+Connected to ==> Acquirer 20/Sep/2015 10:28:33 PM
+
+Reversal message Received... 20/Sep/2015 10:28:35 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 10:28:35 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 10:28:35 PM
+
+Connected to ==> Acquirer 20/Sep/2015 10:28:35 PM
+
+Switch disconnected from =/=> Acquirer 20/Sep/2015 10:28:35 PM
+
+FEP: Acquirer listening at 127.0.0.1 on 2021 20/Sep/2015 10:28:35 PM
+

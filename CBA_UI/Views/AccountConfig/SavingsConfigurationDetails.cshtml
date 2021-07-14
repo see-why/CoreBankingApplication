@@ -1,0 +1,79 @@
+﻿@model CBA.Core.SavingsAccountConfiguration
+
+@{
+    ViewBag.Title = "Savings Configuration Details";
+}
+
+<h2>Savings Configuration Details</h2>
+
+@if (ViewBag.IsConfigured)
+{
+    <div>
+        @*<h4>Savings Account Configuration</h4>
+	    <hr />*@
+    
+            @*<dl class="dl-horizontal">
+                <dt>
+                    @Html.DisplayNameFor(model => model.CreditInterestRate)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.CreditInterestRate)
+                </dd>
+
+                <dt>
+                    @Html.DisplayNameFor(model => model.MinimumBalance)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.MinimumBalance)
+                </dd>
+                <dt>
+                    @Html.DisplayNameFor(model => model.InterestExpenseGLAccount)
+                </dt>
+
+                <dd>
+                    @Html.DisplayFor(model => model.InterestExpenseGLAccount.Name)
+                </dd>
+
+            </dl>*@
+        <div class="row">
+            <div class="col-md-6">
+                <h3> @Html.DisplayNameFor(model => model.CreditInterestRate)</h3>
+            </div>
+            <div class="col-md-6">
+                <h3>@Html.DisplayFor(model => model.CreditInterestRate)% per annum</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3> @Html.DisplayNameFor(model => model.MinimumBalance)</h3>
+            </div>
+            <div class="col-md-6">
+                <h3><span data-currency-iso="NGN">&#8358;</span>@(Model.MinimumBalance.ToString("#,##0.00;(#,##0.00))"))</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3> @Html.DisplayNameFor(model => model.InterestExpenseGLAccount)</h3>
+            </div>
+            <div class="col-md-6">
+               <h3> @Html.DisplayFor(model => model.InterestExpenseGLAccount.Name)</h3>
+            </div>
+        </div>
+       
+    </div>
+    <p class="h4">
+        @Html.ActionLink("Edit Configuration", "ConfigureSavings"@*, new { id = Model.ID }*@)
+    </p>
+}
+else
+{
+    <div>
+        <h2 class="text-danger">Savings not Configured</h2>
+        <p class="h4">
+            @Html.ActionLink("Configure", "ConfigureSavings")
+        </p>
+        
+    </div>
+}

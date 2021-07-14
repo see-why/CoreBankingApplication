@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewBag.Title = "CloseBusiness";
+}
+
+<h2>Close Business</h2>
+<h3>Current Financial date : @(ViewBag.CurrentFinancialDate)</h3>
+@if (ViewBag.IsBusinessClosed)
+{
+    <div class="alert alert-success container" role="alert">
+        <h3>@(ViewBag.BusinessClosedMessage) </h3>
+    </div>
+}
+else if (ViewBag.IsAllAccountsConfigured)
+{
+    using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+              <input type="submit" value="CLOSE BUSINESS" class="btn btn-default" />
+            </div>
+        </div>
+    }
+}
+else
+{
+    if (!ViewBag.IsSavingsConfigured)
+    {
+        <div>Savings Account not configured @Html.ActionLink("Configure", "SavingsConfigurationDetails", "AccountConfig")</div>
+    }
+    if (!ViewBag.IsCurrentAccountConfigured)
+    {
+        <div>Current Account not configured @Html.ActionLink("Configure", "CurrentConfigurationDetails", "AccountConfig")</div>
+    }
+    if (!ViewBag.IsLoanConfigured)
+    {
+        <div>Loan Account not configured @Html.ActionLink("Configure", "LoanConfigurationDetails", "AccountConfig")</div>
+    }
+    
+}
+

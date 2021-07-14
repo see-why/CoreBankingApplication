@@ -1,0 +1,117 @@
+﻿@model CBA.Core.ViewModels.FindCustomerView
+
+@{
+    ViewBag.Title = "Search Customer";
+    var foundUsers = ViewBag.foundCustomers as IEnumerable<CBA.Core.Customer>;
+    var customer = new CBA.Core.Customer();
+}
+
+<h2>Search Customer</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-inline">
+        @*<h4>Search Customer</h4>*@
+        <hr />
+        @Html.ValidationSummary(false)
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.CustomerID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CustomerID)
+                @Html.ValidationMessageFor(model => model.CustomerID)
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.FirstName, new { @class = "control-label col-md-2" })*@            
+            @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control", placeholder = "First Name" })
+                      
+        </div>
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.LastName, new { @class = "control-label col-md-2" })*@
+            @Html.TextBoxFor(model => model.LastName, new { @class = "form-control", placeholder = "Last Name" })         
+        </div>
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.FirstName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FirstName)
+                @Html.ValidationMessageFor(model => model.FirstName)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.LastName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.LastName)
+                @Html.ValidationMessageFor(model => model.LastName)
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+<hr />
+<div class="row">
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(x => customer.CustomerID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(x => customer.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(x => customer.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(x => customer.PhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(x => customer.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(x => customer.Address)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in foundUsers)
+        {
+            <tr>
+                <td>
+                    @(item.CustomerID.ToString("D6"))
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PhoneNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID }) @*
+                        @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })*@
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+
+
+

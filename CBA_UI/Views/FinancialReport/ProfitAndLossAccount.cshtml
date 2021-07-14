@@ -1,0 +1,134 @@
+﻿@using CBA.Logic
+@{
+    ViewBag.Title = "Profit And Loss Account";
+    var entries = ViewBag.Entries as Dictionary<string, double>;
+}
+<h2>PROFIT AND LOSS ACCOUNT FOR THE YEAR ENDED @(ViewBag.CurrentFinancialDate)</h2>
+@*page 138*@
+<table class="table">
+    @*<tr>
+        <th> </th>  <th> NGN </th> <th> NGN </th> <th>  </th> <th> NGN </th> <th> NGN </th>      
+    </tr>*@
+    @*<tr>
+        <td>
+            Opening Stock
+        </td>
+        <td>           
+        </td>
+        <td>
+            7,750
+        </td>
+        <td>
+            Sales
+        </td>
+        <td>            
+        </td>
+        <td>
+            74,000
+        </td>        
+    </tr>
+    <tr>
+        <td>
+            Purchases
+        </td>
+        <td> 60,750</td>
+        <td>           
+        </td>
+        <td>            
+        </td>
+        <td></td>
+        <td>            
+        </td>        
+    </tr>
+    <tr>
+        <td>
+            Purchases
+        </td>
+        <td> 60,750</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>        
+    </tr>*@
+   <tr>
+       <th></th>
+       <th><span data-currency-iso="NGN">&#8358;</span></th>
+   </tr>
+    <tr>
+        <td><strong>Interest Income</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Income on customer Loans</td>
+        <td>@(Utils.FormatNumber(entries["InterestOnLoans"]))</td>
+    </tr>
+    <tr>
+        <td>Income on other Loans</td>
+        <td>@(Utils.FormatNumber(entries["InterestOnOtherLoans"]))</td>
+    </tr>    
+    <tr>
+        <td> Total Interest income </td>
+        <td>@(Utils.FormatNumber(entries["TotalInterestIncome"]))</td>
+    </tr>
+
+    <tr>
+        <td><strong>Interest Expense</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Income on customer deposits</td>
+        <td>@(Utils.FormatNumber(entries["InterestOnCustomerAccounts"]))</td>
+    </tr>    
+    <tr>
+        <td>   Total  interest  expense  </td>
+        <td>@(Utils.FormatNumber(entries["TotalInterestExpense"]))</td>
+    </tr>
+    <tr>
+        <td><i>Net interest  income</i> </td>
+        <td>@(Utils.FormatNumber(entries["NetInterestIncome"]))</td>
+    </tr>
+        
+    <tr>
+        <td><strong>NonInterest Income</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Service charges on deposit accounts </td>
+        <td>@(Utils.FormatNumber(entries["ChargesOnDepositAccounts"]))</td>
+    </tr>
+    <tr>
+        <td> Other noninterest income  </td>
+        <td>@(Utils.FormatNumber(entries["otherNonInterestIncome"]))</td>
+    </tr>
+    <tr>
+        <td><i>Total NonInterest income</i> </td>
+        <td>@(Utils.FormatNumber(entries["TotalNonInterestIncome"]))</td>
+    </tr>
+
+    <tr>
+        <td><strong>NonInterest Expense</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td> Salaries  and  employee  benefits   </td>
+        <td>@(Utils.FormatNumber(entries["Salaries"]))</td>
+    </tr>
+    <tr>
+        <td> Expenses of premises and fixed assets </td>
+        <td>@(Utils.FormatNumber(entries["MaintenanceCosts"]))</td>
+    </tr>
+    <tr>
+        <td> Other  noninterest  expense </td>
+        <td>@(Utils.FormatNumber(entries["otherNonInterestExpense"]))</td>
+    </tr>
+    <tr>
+        <td><i>Total NonInterest expense</i> </td>
+        <td>@(Utils.FormatNumber(entries["totalNonInterestExpense"]))</td>
+    </tr>
+    <tr>
+        <td><strong>Net Profit</strong></td>
+        <td>@(Utils.FormatNumber(entries["netIncome"]))</td>
+    </tr>
+    
+</table>
+

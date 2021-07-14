@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "OpenBusiness";
+}
+
+<h2>Open Business</h2> 
+
+<h3>Current Financial date : @(ViewBag.CurrentFinancialDate)</h3>
+@if (ViewBag.IsBusinessOpened)
+{
+    <div class="alert alert-success container" role="alert">
+        <h3>@(ViewBag.BusinessOpenedMessage) </h3>
+    </div>
+}
+else
+{
+    using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="OPEN BUSINESS" class="btn btn-default" />
+            </div>
+        </div>
+    }
+}
+

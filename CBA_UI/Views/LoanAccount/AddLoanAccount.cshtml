@@ -1,0 +1,144 @@
+﻿@model CBA.Core.ViewModels.AddLoanAccountView
+
+@{
+    ViewBag.Title = "AddLoanAccount";
+    var linkedCustomerAccount = ViewBag.LinkedCustomerAccount as CBA.Core.CustomerAccount;
+    var customer = ViewBag.Customer as CBA.Core.Customer;
+}
+
+<h2>Add Loan Account</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+     <fieldset>
+    <legend>Customer Information </legend>
+        @if (customer != null)
+        {
+    <div class="row">
+        
+            <div class="col-md-4">
+                @("Customer ID :")
+                @(customer.CustomerID.ToString("D6"))
+            </div>
+            <div class="col-md-4">
+                @("First Name :")
+                @(customer.FirstName)
+            </div>
+            <div class="col-md-4">
+                @("Last Name :")
+                @(customer.LastName)
+            </div>
+            
+        
+        @*@Html.LabelFor(model => model.CustomerID, new { @class = "control-label col-md-2" })*@
+        
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            @("Phone Number :")
+            @(customer.PhoneNumber)
+        </div>
+        <div class="col-md-4">
+            @("Gender :")
+            @(customer.Gender.Name)
+        </div>
+    </div>
+        }
+</fieldset>
+    <hr />
+    <fieldset>
+    <legend>Customer Account Information </legend>
+        @if (linkedCustomerAccount != null)
+        {
+    <div class="row">
+        
+            <div class="col-md-4">
+                @("Account Number :")
+                @(linkedCustomerAccount.AccountNumber)
+            </div>
+            <div class="col-md-4">
+                @("Account Name :")
+                @(linkedCustomerAccount.Name)
+            </div>
+            <div class="col-md-4">
+                @("Account Type :")
+                @(linkedCustomerAccount.AccountType.Name)
+            </div>
+            
+        
+        @*@Html.LabelFor(model => model.CustomerID, new { @class = "control-label col-md-2" })*@
+        
+    </div>
+    
+        }
+</fieldset>
+    <hr />
+    
+    <div class="form-horizontal">
+        <h4>Loan Account Information</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.LinkedCustomerAccountID)
+        @Html.ValidationMessageFor(model => model.LinkedCustomerAccountID)
+        
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.LinkedCustomerAccountID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.LinkedCustomerAccountID)
+                @Html.ValidationMessageFor(model => model.LinkedCustomerAccountID)
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.AccountName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AccountName)
+                @Html.ValidationMessageFor(model => model.AccountName)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.RepaymentInterval, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.RepaymentInterval)
+                @Html.ValidationMessageFor(model => model.RepaymentInterval)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.PrincipalAmount, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.PrincipalAmount)
+                @Html.ValidationMessageFor(model => model.PrincipalAmount)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Duration, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Duration)
+                @Html.ValidationMessageFor(model => model.Duration)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.BranchID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.BranchID, ViewBag.AllBranches as SelectList)
+                @Html.ValidationMessageFor(model => model.BranchID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create And Disburse" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+@*<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@

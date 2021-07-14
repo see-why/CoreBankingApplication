@@ -1,0 +1,83 @@
+﻿@using CBA.Logic
+@{
+    ViewBag.Title = "Balance Sheet";
+    var entries = ViewBag.Entries as Dictionary<string, double>;
+}
+
+<h2>BALANCE SHEET AS AT @(ViewBag.CurrentFinancialDate)</h2>
+<table class="table table-striped table-bordered">
+
+    <tr>
+        <th></th>
+        <th><span data-currency-iso="NGN">&#8358;</span></th>
+    </tr>
+    <tr>
+        <td><strong>Assets</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Vault</td>
+        <td>@(Utils.FormatNumber(entries["vault"]))</td>
+    </tr>
+    <tr>
+        <td>Cash Assets</td>
+        <td>@(Utils.FormatNumber(entries["cashAssets"]))</td>
+    </tr>
+    <tr>
+        <td> Loans </td>
+        <td>@(Utils.FormatNumber(entries["loans"]))</td>
+    </tr>
+    <tr>
+        <td>Premises  and  fixed  assets </td>
+        <td>@(Utils.FormatNumber(entries["fixedAssets"]))</td>
+    </tr>
+    <tr>
+        <td> Other Assets </td>
+        <td>@(Utils.FormatNumber(entries["otherAssets"]))</td>
+    </tr>
+    <tr>
+        <td><strong>Total assets</strong></td>
+        <td><strong>@(Utils.FormatNumber(entries["totalAssets"]))</strong></td>
+    </tr>
+
+
+    <tr>
+        <td><strong>Capital and Liabilities</strong></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Capital</td>
+        <td>@(Utils.FormatNumber(entries["capital"]))</td>
+    </tr>
+    <tr>
+        <td>other Capital</td>
+        <td>@(Utils.FormatNumber(entries["otherCapital"]))</td>
+    </tr>
+    <tr>
+        <td>Net Profit</td>
+        <td>@(Utils.FormatNumber(entries["netIncome"]))</td>
+    </tr>
+    <tr>
+        <td><i>Total Capital and Profit</i></td>
+        <td>@(Utils.FormatNumber(entries["totalCapitalAndNetIncome"]))</td>
+    </tr>
+
+    <tr>
+        <td>Customer Deposits</td>
+        <td>@(Utils.FormatNumber(entries["customerAccountBalances"]))</td>
+    </tr>
+    <tr>
+        <td> Other liabilities </td>
+        <td>@(Utils.FormatNumber(entries["otherLiablilities"]))</td>
+    </tr>
+    <tr>
+        <td> <i>Total Liabilities</i> </td>
+        <td>@(Utils.FormatNumber(entries["totalLiabilities"]))</td>
+    </tr>
+    <tr>
+        <td><strong>Total Capital and Liabilities</strong></td>
+        <td><strong>@(Utils.FormatNumber(entries["totalCapitalAndLiabilities"]))</strong></td>
+    </tr>
+
+
+</table>

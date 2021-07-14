@@ -1,0 +1,102 @@
+﻿@model CBA.Core.ViewModels.FindCustomerAccountView
+
+@{
+    ViewBag.Title = "FindCustomerAccount";
+    var foundCustomerAccounts = ViewBag.foundCustomerAccounts as IEnumerable<CBA.Core.CustomerAccount>;
+    var customerAccount = new CBA.Core.CustomerAccount();
+}
+
+<h2>Choose Customer Account</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-inline">
+        <h4>Search by Account Number or Account Name</h4>
+        <hr />
+        @Html.ValidationSummary(false)
+       
+        <div class="form-group">           
+            @Html.TextBoxFor(model => model.AccountNumber, new { @class = "form-control", placeholder = "Account Number" })
+        </div>
+        <div class="form-group">            
+            @Html.TextBoxFor(model => model.AccountName, new { @class = "form-control", placeholder = "Account Name" })
+        </div>
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.AccountNumber, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AccountNumber)
+                @Html.ValidationMessageFor(model => model.AccountNumber)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.AccountName, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AccountName)
+                @Html.ValidationMessageFor(model => model.AccountName)
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            <div class="col-md-offset-6 col-md-10">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+<hr />
+<div class="row">
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(x => customerAccount.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(x => customerAccount.AccountNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(x => customerAccount.Balance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(x => customerAccount.IsActive)
+            </th>
+            <th></th>
+            @*<th>
+                    @Html.DisplayNameFor(x => customer.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(x => customer.Address)
+                </th>
+                <th></th>*@
+        </tr>
+
+        @foreach (var item in foundCustomerAccounts)
+        {
+            <tr>
+                @*<td>
+                        @(item.CustomerID.ToString("D6"))
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AccountNumber)
+                </td>
+                <td>
+                    @(item.Balance.ToString("#,##0.00;(#,##0.00))"))
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsActive)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Post Transaction", "PostTransaction", new { customerAccountID = item.ID }) 
+                    @*@Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ })*@
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>

@@ -1,0 +1,85 @@
+﻿@model CBA.Core.ViewModels.FindBranchView
+@*@model IEnumerable<CBA.Core.Branch>*@
+
+@{
+    ViewBag.Title = "All Branches";
+    var foundBranches = ViewBag.foundBranches as IEnumerable<CBA.Core.Branch>;
+    var branch = new CBA.Core.Branch();
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <h4>@TempData["SuccessMessage"]</h4>
+    </div>
+    @*<h1 class="text-success">@TempData["SuccessMessage"].</h1>*@
+}
+<h2>All Branches</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-inline">
+        @*<h4>Search Customer</h4>*@
+        <hr />
+        @Html.ValidationSummary(false)
+
+        @*<div class="form-group">
+                @Html.LabelFor(model => model.CustomerID, new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.CustomerID)
+                    @Html.ValidationMessageFor(model => model.CustomerID)
+                </div>
+            </div>*@
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.FirstName, new { @class = "control-label col-md-2" })*@
+            @Html.TextBoxFor(model => model.Name, new { @class = "form-control", placeholder = "Branch Name" })
+        </div>
+        @*<div class="form-group">
+            
+            @Html.TextBoxFor(model => model.LastName, new { @class = "form-control", placeholder = "Last Name" })
+        </div>*@
+        
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+<hr />
+
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-striped table-bordered">
+    <tr>
+        <th>
+            Code
+        </th>
+        <th>
+            @Html.DisplayNameFor(x => branch.Name)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in foundBranches)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) 
+                @*@Html.ActionLink("Details", "Details", new { id=item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.ID })*@
+            </td>
+        </tr>
+    }
+
+</table>

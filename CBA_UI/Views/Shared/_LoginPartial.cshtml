@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNet.Identity
+@{
+    var businessStatus = "Closed";
+    if (MvcApplication.IsBusinessOpen)
+    {
+        businessStatus = "Opened";
+    }
+}
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "User", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+    @Html.AntiForgeryToken()
+
+    <ul class="nav navbar-nav navbar-right">
+        @if (ViewBag.IsLogin == null)
+        {
+            <li><a href="#">Business Status: @(businessStatus)</a></li>
+        }
+        
+        <li>
+            @Html.ActionLink("Hello " + User.Identity.GetUserName() + "!", "ChangePassword", "User", routeValues: null, htmlAttributes: new { title = "Manage" })
+        </li>
+        <li><a href="javascript:document.getElementById ('logoutForm').submit()">Log off</a></li>
+    </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        @if (ViewBag.IsLogin == null)
+        {
+            <li><a href="#">Business Status: @(businessStatus)</a></li>
+        }
+        @*<li>@Html.ActionLink("Register", "Register", "User", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>*@
+        <li>@Html.ActionLink("Log in", "Login", "User", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}

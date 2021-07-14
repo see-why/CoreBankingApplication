@@ -1,0 +1,365 @@
+﻿@using Microsoft.AspNet.Identity
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Core Banking Application</title>
+    @*@Styles.Render("~/Content/css")*@
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    @Styles.Render("~/bundles/adminlteCSS")
+
+</head>
+<body class="hold-transition skin-blue fixed sidebar-mini">
+    @{
+        var businessStatus = "Closed";
+        if (MvcApplication.IsBusinessOpen)
+        {
+            businessStatus = "Opened";
+        }
+        var username = User.Identity.IsAuthenticated ? User.Identity.GetUserName() : "No user";
+    }
+    <div class="wrapper">
+        <header class="main-header">
+            <!-- Logo -->
+            <a href="../../index2.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>F</b>S</span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b><i>Fin</i></b>Sky</span>
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top" role="navigation">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- Messages: style can be found in dropdown.less-->                                              
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="~/images/avatar.png" class="user-image" alt="User Image">
+                                <span class="hidden-xs">@(User.Identity.Name)</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- User image -->
+                                <li class="user-header">
+                                    <img src="~/images/avatar.png" class="img-circle" alt="User Image">
+                                    <p>
+                                        @(username)
+                                                                           
+                                    </p>
+                                </li>
+                                
+                                <!-- Menu Footer-->
+                                <li class="user-footer">
+                                    <div class="pull-left">
+                                        @Html.ActionLink("Manage Profile",
+                                            "ChangePassword", "User", routeValues: null, 
+                                                htmlAttributes: new { title = "Manage",@class ="btn btn-default btn-flat" })                                        
+                                        @*<a href="#" class="btn btn-default btn-flat">Edit Profile</a>*@
+                                    </div>
+                                    <div class="pull-right">
+                                        @using (Html.BeginForm("LogOff", "User", FormMethod.Post, 
+                                            new { id = "logoutForm", @class = "navbar-right" }))
+                                        {
+                                            @Html.AntiForgeryToken()
+                                            <a href="javascript:document.getElementById ('logoutForm').submit()" 
+                                               class="btn btn-default btn-flat">Sign out</a>
+                                        }
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- Left side column. contains the sidebar -->
+        <aside class="main-sidebar" style="width:260px;font-size:12px">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+
+                <!-- sidebar menu: : style can be found in sidebar.less -->
+                <ul class="sidebar-menu">
+                    <li class="header">MAIN NAVIGATION</li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and Modify Branches">
+                            <i class="fa fa-folder"></i> <span>Branch Management</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("Create","Branch")" title="Add a new Branch">
+                                    <i class="fa fa-circle-o"></i> Add Branch
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index","Branch")" title="Search and View Branches">
+                                    <i class="fa fa-circle-o"></i> Branches
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and Edit Users">
+                            <i class="fa fa-folder"></i> <span>User Management</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("Index","User")" title="Add a new Branch">
+                                    <i class="fa fa-circle-o"></i> Users
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Create","User")" title="Search and View Branches">
+                                    <i class="fa fa-circle-o"></i> Add User
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and Edit Tellers">
+                            <i class="fa fa-folder"></i> <span>Teller Management</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("CreateTeller", "Teller")" title="Assign a user as a teller">
+                                    <i class="fa fa-circle-o"></i> Assign User
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index","Teller")" title="Search and View all Tellers">
+                                    <i class="fa fa-circle-o"></i> Tellers
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and modify Customers">
+                            <i class="fa fa-folder"></i> <span>Customer Management</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("Create", "Customer")" title="Add a Customer">
+                                    <i class="fa fa-circle-o"></i> Add Customer
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", "Customer")" title="Search and View all Customers">
+                                    <i class="fa fa-circle-o"></i> Customers
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and modify customer Accounts">
+                            <i class="fa fa-folder"></i> <span>Customer Account Management</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("AddCustomerAccount", "CustomerAccount")" title="Add a Customer">
+                                    <i class="fa fa-circle-o"></i> Add Customer Account
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", "CustomerAccount")" title="Search and View all Customers">
+                                    <i class="fa fa-circle-o"></i> Customer Accounts
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and modify loan Accounts">
+                            <i class="fa fa-folder"></i> <span>Loan Account Management</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("AddLoanAccount", "LoanAccount")" title="Add a Loan Account">
+                                    <i class="fa fa-circle-o"></i> Add Loan Account
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", "LoanAccount")" title="Search and View all Loan Accounts">
+                                    <i class="fa fa-circle-o"></i> Loan Accounts
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and modify GL Categories">
+                            <i class="fa fa-folder"></i> <span>Account Configuration</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("SavingsConfigurationDetails", "AccountConfig")"
+                                   title="Set interest, minimum balance, Gl Accounts for Savings Account">
+                                    <i class="fa fa-circle-o"></i> Savings Account Configuration
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("CurrentConfigurationDetails", "AccountConfig")"
+                                   title="Set interest, minimum balance, Gl Accounts for Current Account">
+                                    <i class="fa fa-circle-o"></i> Current Account Configuration
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("LoanConfigurationDetails", "AccountConfig")"
+                                   title="Set interest, minimum balance, Gl Accounts for Loan Account">
+                                    <i class="fa fa-circle-o"></i> Loan Account Configuration
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and modify GL Categories">
+                            <i class="fa fa-folder"></i> <span>GL Category Management</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("Create", "GLCategory")" title="Add a GL Category">
+                                    <i class="fa fa-circle-o"></i> Add GL Category
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", "GLCategory")" title="Search and View all GL Categories">
+                                    <i class="fa fa-circle-o"></i> GL Categories
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and modify GL Accounts">
+                            <i class="fa fa-folder"></i> <span>GL Account Management</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("Create", "GLAccount")" title="Add a GL Account">
+                                    <i class="fa fa-circle-o"></i> Add GL Account
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", "GLAccount")" title="Search and View all GL Accounts">
+                                    <i class="fa fa-circle-o"></i> GL Accounts
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and modify GL Postings">
+                            <i class="fa fa-folder"></i> <span>GL Posting Management</span> <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("PostTransaction", "GLPost")" title="Post a GL Account Transactioin">
+                                    <i class="fa fa-circle-o"></i> Post Transaction
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", "GLPost")" title="Search and View all GL Posts">
+                                    <i class="fa fa-circle-o"></i> GL Posts
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="Add, View and modify Teller Postings">
+                            <i class="fa fa-folder"></i> <span>Teller Posting Management</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("PostTransaction", "TellerPost")" title="Post Transaction">
+                                    <i class="fa fa-circle-o"></i> Post Transaction
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("ViewTellerPost", "TellerPost")" title="View your own Teller Posts">
+                                    <i class="fa fa-circle-o"></i> My posts
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Index", "TellerPost")" title="Search and View all Teller Posts">
+                                    <i class="fa fa-circle-o"></i> All Teller Posts
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="View and Generate Financial Reports">
+                            <i class="fa fa-folder"></i> <span>Financial Reports Management</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("ProfitAndLossAccount", "FinancialReport")" title="View Profit and Loss Account">
+                                    <i class="fa fa-circle-o"></i> Profit and Loss Account
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("BalanceSheet", "FinancialReport")" title="View Balance Sheet">
+                                    <i class="fa fa-circle-o"></i> Balance Sheet
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("TrialBalance", "FinancialReport")" title="View Trial Balance">
+                                    <i class="fa fa-circle-o"></i> Trial Balance
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="treeview">
+                        <a href="#" title="View and Generate Financial Reports">
+                            <i class="fa fa-folder"></i> <span>Business Management</span>
+                            <i class="fa fa-angle-left pull-right"></i>
+                        </a>
+                        <ul class="treeview-menu">
+                            <li>
+                                <a href="@Url.Action("CloseBusiness", "EOD")" title="View Profit and Loss Account">
+                                    <i class="fa fa-circle-o"></i> Close Business
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("OpenBusiness", "EOD")" title="View Balance Sheet">
+                                    <i class="fa fa-circle-o"></i> Open Business
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+        <div class="content-wrapper" style="margin-left:260px;">
+            <!-- Content Header (Page header) -->
+            <section class="content-header">
+              
+            </section>
+
+            <!-- Main content -->
+            <section class="content">
+                @RenderBody()            
+            </section><!-- /.content -->
+        </div><!-- /.content-wrapper -->
+        <footer class="main-footer" style="margin-left:260px;">
+            <div class="pull-right hidden-xs">
+                <b>Version</b> 2.3.0
+            </div>
+            <strong>Copyright &copy; @(DateTime.Now.Year) <i>Fin</i>Sky Corp.</strong>
+    </div>
+ 
+
+        @*@Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")*@
+        @Scripts.Render("~/bundles/adminlteJS")
+        @Scripts.Render("~/bundles/jqueryval")
+        @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<CBA.Core.TellerPosting>
+
+@{
+    ViewBag.Title = "All Tellers Post";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <h3>@TempData["SuccessMessage"]</h3>
+    </div>
+    @*<h1 class="text-success">@TempData["SuccessMessage"].</h1>*@
+}
+<h2>All Teller Posts</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table table-striped table-bordered table-condensed">
+    <tr>
+
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerAccount.AccountNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount) (<span data-currency-iso="NGN">&#8358;</span>)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Narration)
+        </th>
+        <th>
+            @("Teller Username")
+        </th>
+        <th>
+            @("Till Account Name")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FinancialDate)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerAccount.AccountNumber)
+            </td>
+            <td>
+                @(item.Amount.ToString("#,##0.00;(#,##0.00))"))
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Narration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Teller.User.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Teller.TillAccount.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FinancialDate)
+            </td>
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+                </td>*@
+        </tr>
+    }
+
+</table>

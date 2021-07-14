@@ -1,0 +1,101 @@
+﻿@using CBA.Logic
+@model IEnumerable<CBA.Core.LoanAccount>
+
+@{
+    ViewBag.Title = "All Loan Accounts";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <h4>@TempData["SuccessMessage"]</h4>
+    </div>
+    @*<h1 class="text-success">@TempData["SuccessMessage"].</h1>*@
+}
+<h2>All Loan Accounts</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table table-striped table-bordered table-condensed">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AccountNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RepaymentInterval)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastPaidDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NextDueDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PrincipalAmount) (<span data-currency-iso="NGN">&#8358;</span>)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.InstallmentAmount) (<span data-currency-iso="NGN">&#8358;</span>)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AmountRepaid) (<span data-currency-iso="NGN">&#8358;</span>)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.DueDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccumulatedInterest)
+            </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Branch)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RepaymentInterval)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastPaidDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NextDueDate)
+            </td>
+            <td>
+                @(Utils.FormatNumber(item.PrincipalAmount))               
+            </td>
+            <td>
+                @(Utils.FormatNumber(item.InstallmentAmount))
+            </td>
+            <td>
+                @(Utils.FormatNumber(item.AmountRepaid))
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.DueDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AccumulatedInterest)
+                </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Branch.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditLoanAccount", new { id = item.ID }) @*|
+                    @Html.ActionLink("Details", "Details", new { id=item.ID })
+                    @Html.ActionLink("Delete", "Delete", new { id=item.ID })*@
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,147 @@
+﻿
+@{
+   // ViewBag.Title = "_LayoutWithSidebar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@RenderBody()
+
+
+@*<div class="row">
+    <div class="col-xs-3" style="border-right:5px solid gray">
+        <div id="tree">
+
+        </div>
+    </div>
+    <div class="content col-xs-9">
+        @RenderBody()
+    </div>
+</div>*@
+
+
+@section scripts {
+
+   <script type="text/javascript">
+   // alert("ss");
+    var data = [
+        {
+            label: "Branch", id: 1,
+            children: [
+                { label: "<a href='/CBA/Branch/Create'>Create Branch</a>", id: 2 },
+                { label: "<a href='/CBA/Branch/Index'>View Branches</a>", id: 3 }
+            ]
+        },
+        {
+            label: "User Management", id: 4,
+            children: [
+                 { label: "<a href='/CBA/User/'>View all Users</a>", id: 5 },
+                { label: "<a href='/CBA/User/Register'>Create User</a>", id: 6 },
+               
+                { label: "<a href='/CBA/User/ChangePassword'>Change Password</a>", id: 7 }
+            ]
+        },
+         {
+             label: "Teller Management", id: 7,
+             children: [
+                 { label: "<a href='/CBA/Teller/'>View all Tellers</a>", id: 2 },
+                 { label: "<a href='/CBA/Teller/CreateTeller/'>Assign User</a>", id: 3 }
+             ]
+         }
+         ,
+         {
+             label: "Customer Management", id: 4,
+             children: [
+                 { label: "<a href='/CBA/Customer/'>View all Customers</a>", id: 2 },
+                 { label: "<a href='/CBA/Customer/Create/'>Create Customer</a>", id: 3 },
+                 { label: "<a href='/CBA/Customer/FindCustomer'>Find Customer</a>", id: 3 }
+             ]
+         },
+         {
+             label: "Customer Account Management", id: 4,
+             children: [
+                 { label: "<a href='/CBA/CustomerAccount/'>View all Customer Accounts</a>", id: 2 },
+                 { label: "<a href='/CBA/CustomerAccount/AddCustomerAccount/'>Add Customer Account</a>", id: 3 },
+                 { label: "<a href='/CBA/CustomerAccount/FindCustomerAccount'>Find Customer Account</a>", id: 3 }
+             ]
+         },
+         {
+             label: "Loan Account Management", id: 4,
+             children: [
+                 { label: "<a href='/CBA/LoanAccount/'>View all Loan Accounts</a>", id: 2 },
+                 { label: "<a href='/CBA/LoanAccount/AddLoanAccount/'>Add Loan Account</a>", id: 3 },
+                 { label: "<a href='/CBA/LoanAccount/FindLoanAccount'>Find Loan Account</a>", id: 3 }
+             ]
+         },
+         {
+             label: "Accounts Configuration", id: 4,
+             children: [
+                 { label: "<a href='/CBA/AccountConfig/SavingsConfigurationDetails'>Savings Account Configuration</a>", id: 2 },
+                 { label: "<a href='/CBA/AccountConfig/CurrentConfigurationDetails'>Current Account Configuration</a>", id: 3 },
+                 { label: "<a href='/CBA/AccountConfig/LoanConfigurationDetails'>Loan Account Configuration</a>", id: 3 }
+             ]
+         },
+         {
+             label: "GL Category Management", id: 4,
+             children: [
+                 { label: "<a href='/CBA/GLCategory/Create'>Add GLCategory</a>", id: 2 },                 
+                 { label: "<a href='/CBA/GLCategory/'>View GLCategories</a>", id: 3 }
+             ]
+         },
+          {
+              label: "GL Account Management", id: 4,
+              children: [
+                  { label: "<a href='/CBA/GLAccount/Create'>Add GL Account</a>", id: 2 },
+                  { label: "<a href='/CBA/GLAccount/'>View GL Accounts</a>", id: 3 }
+              ]
+          },
+          {
+              label: "GL Posting Management", id: 4,
+              children: [
+                  { label: "<a href='/CBA/GLPost/'>View GL Posts</a>", id: 2 },
+                  { label: "<a href='/CBA/GLPost/PostTransaction'>Post Transaction</a>", id: 3 }
+              ]
+          },
+          {
+              label: "Teller Posting", id: 4,
+              children: [
+                  { label: "<a href='/CBA/TellerPost/'>View All Teller Posts</a>", id: 2 },
+                  { label: "<a href='/CBA/TellerPost/ViewTellerPost'>My Posts</a>", id: 2 },
+                  { label: "<a href='/CBA/TellerPost/PostTransaction'>Post Transaction</a>", id: 3 }
+              ]
+          }
+          ,
+          {
+              label: "Financial Reports Management", id: 4,
+              children: [
+                  { label: "<a href='/CBA/FinancialReport/ProfitAndLossAccount'>Profit and Loss Account</a>", id: 2 },
+                  { label: "<a href='/CBA/FinancialReport/BalanceSheet'>Balance Sheet</a>", id: 3 },
+              { label: "<a href='/CBA/FinancialReport/TrialBalance'>Trial Balance</a>", id: 3 }
+              ]
+          }
+          ,
+          {
+              label: "EOD Process", id: 4,
+              children: [
+                  { label: "<a href='/CBA/EOD/CloseBusiness'>Close Business</a>", id: 2 },
+                  { label: "<a href='/CBA/EOD/OpenBusiness'>Open Business</a>", id: 3 }
+              ]
+          }
+         
+    ];
+    //$(function () {
+
+    //    var $tree = $('#tree');
+
+    //    $tree.tree({
+    //        data: data,          
+    //        autoEscape: false
+
+    //    })
+    //});
+</script>
+
+
+
+    }
+@Scripts.Render("~/bundles/jqueryval")
+
+@*@RenderSection("scripts", required: false)*@

@@ -1,0 +1,88 @@
+﻿@model CBA.Core.ViewModels.AddCurrentConfigView
+
+@{
+    ViewBag.Title = "ConfigureCurrent";
+}
+
+<h2>Configure Current Accounts</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        @*<h4>AddCurrentConfigView</h4>*@
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            @Html.LabelFor(model => model.CreditInterestRate, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="input-group">
+                    <span class="input-group-addon">%</span>
+                    @Html.TextBoxFor(model => model.CreditInterestRate, new { @class = "form-control" })                                       
+                </div>                
+                @*@Html.EditorFor(model => model.CreditInterestRate, new { @class = "form-control" })<span>%</span>*@
+                @Html.ValidationMessageFor(model => model.CreditInterestRate)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.MinimumBalance, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="input-group">
+                    <span class="input-group-addon" data-currency-iso="NGN">&#8358;</span>
+                    @Html.TextBoxFor(model => model.MinimumBalance, new { @class = "form-control" })                    
+                </div>
+                @*@Html.EditorFor(model => model.MinimumBalance, new { @class = "form-control" })*@
+                @Html.ValidationMessageFor(model => model.MinimumBalance)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.InterestExpenseGLAccountID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.InterestExpenseGLAccountID, 
+                                        ViewBag.InterestPayableAccounts as SelectList, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.InterestExpenseGLAccountID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.COT, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="input-group">
+                    <span class="input-group-addon" data-currency-iso="NGN">&#8358;</span>
+                    @Html.TextBoxFor(model => model.COT, new { @class = "form-control" })<span>per 1000</span>
+                    @*<span class="input-group-addon">per 1000</span>*@
+                </div>
+                @*@Html.EditorFor(model => model.COT, new { @class = "form-control" })<span>per 1000</span>*@
+                @Html.ValidationMessageFor(model => model.COT)
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.COTIncomeGLAccountID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.COTIncomeGLAccountID,
+                                ViewBag.COTIncomeGLAccounts as SelectList, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.COTIncomeGLAccountID)
+            </div>
+        </div>
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.COTIncomeGLAccountID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.COTIncomeGLAccountID)
+                @Html.ValidationMessageFor(model => model.COTIncomeGLAccountID)
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save Configuration" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+@*<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>*@

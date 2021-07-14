@@ -1,0 +1,6 @@
+﻿Hello {firstName},
+
+You were created as a user under the {role} role on Core Banking Application. The following are your login details:
+
+User name : {userName}
+Password : {password}

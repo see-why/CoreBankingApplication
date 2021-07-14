@@ -1,0 +1,77 @@
+﻿@using CBA.Logic
+@model CBA.Core.ViewModels.FindTellerView
+
+@*@model IEnumerable<CBA.Core.Teller>*@
+
+@{
+    ViewBag.Title = "All Tellers";
+    var foundTellers = ViewBag.foundTellers as IEnumerable<CBA.Core.Teller>;
+    var teller = new CBA.Core.Teller();
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <h4>@TempData["SuccessMessage"]</h4>
+    </div>
+    @*<h1 class="text-success">@TempData["SuccessMessage"].</h1>*@
+}
+<h2>All Tellers</h2>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-inline">
+        @*<h4>Search Customer</h4>*@
+        <hr />
+        @Html.ValidationSummary(false)
+
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.FirstName, new { @class = "control-label col-md-2" })*@
+            @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", placeholder = "User Name" })
+
+        </div>
+        <div class="form-group">
+            @*@Html.LabelFor(model => model.LastName, new { @class = "control-label col-md-2" })*@
+            @Html.TextBoxFor(model => model.TillAccountName, new { @class = "form-control", placeholder = "Till Account Name" })
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<p>
+    @Html.ActionLink("Create New Teller", "CreateTeller")
+</p>
+<table class="table table-striped table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(x => teller.User)
+        </th>
+        <th>
+            @Html.DisplayNameFor(x => teller.TillAccount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(x => teller.TillAccount.Balance)
+        </th>
+    </tr>
+
+    @foreach (var item in foundTellers)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TillAccount.Name)
+            </td>
+            <td>
+                @(CBA.Logic.Utils.FormatNumber(item.TillAccount.Balance))
+            </td>
+        </tr>
+    }
+
+</table>

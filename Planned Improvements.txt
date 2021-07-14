@@ -1,0 +1,3 @@
+- drop down lists should show select as first option
+- Add branch banking
+- Add icons ot create common GL categories & gl Accounts etc

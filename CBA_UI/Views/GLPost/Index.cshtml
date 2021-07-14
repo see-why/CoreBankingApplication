@@ -1,0 +1,80 @@
+﻿@model IEnumerable<CBA.Core.GLPost>
+
+@{
+    ViewBag.Title = "All GL Posts";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <h4>@TempData["SuccessMessage"]</h4>
+    </div>
+    @*<h1 class="text-success">@TempData["SuccessMessage"].</h1>*@
+}
+<h2>All GL Posts</h2>
+
+<p>
+    @Html.ActionLink("Post New Transaction", "PostTransaction")
+</p>
+<table class="table table-striped table-bordered table-condensed">
+    <tr>
+        <th>
+            @("Credit Account")
+        </th>
+        <th>
+            @("Debit Account")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AccountCredited.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DebitAmount) (<span data-currency-iso="NGN">&#8358;</span>)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.DebitNarration)
+            </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.CreditAmount) (<span data-currency-iso="NGN">&#8358;</span>)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Narration)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TransactionDate)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountCredited.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountDebited.Name)
+            </td>
+            <td>
+                @(item.AccountCredited.Code.ToString().PadRight(6, '0'))
+                @*@Html.DisplayFor(modelItem => item.AccountCredited.Code)*@
+            </td>
+            <td>
+                @(item.CreditAmount.ToString("#,##0.00;(#,##0.00))"))
+            </td>
+            <td>
+                @(item.DebitAmount.ToString("#,##0.00;(#,##0.00))"))
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Narration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TransactionDate)
+            </td>
+            @*<td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+                </td>*@
+        </tr>
+    }
+
+</table>

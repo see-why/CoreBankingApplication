@@ -1,0 +1,91 @@
+﻿@model CBA.Core.ViewModels.PostGLAccountView
+
+@{
+    ViewBag.Title = "Post Transaction";
+}
+
+<h2>Post Transaction</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        @*<h4>Post GLAccount</h4>*@
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            @Html.LabelFor(model => model.AccountCreditedID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.AccountCreditedID, 
+                                        ViewBag.AllGLAccounts as SelectList, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.AccountCreditedID)
+            </div>
+        </div>  
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.AccountCreditedID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.AccountCreditedID)
+                @Html.ValidationMessageFor(model => model.AccountCreditedID)
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CreditAmount, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="input-group">
+                    <span class="input-group-addon" data-currency-iso="NGN">&#8358;</span>
+                    @Html.TextBoxFor(model => model.CreditAmount, new { @class = "form-control" })
+                </div>                
+                @Html.ValidationMessageFor(model => model.CreditAmount)
+            </div>
+        </div>
+
+        @*<div class="form-group">
+            @Html.LabelFor(model => model.Narration, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Narration)
+                @Html.ValidationMessageFor(model => model.Narration)
+            </div>
+        </div>*@
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.AccountDebitedID, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownListFor(model => model.AccountDebitedID, ViewBag.AllGLAccounts as SelectList, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.AccountDebitedID)
+            </div>
+        </div> 
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.DebitAmount, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                <div class="input-group">
+                    <span class="input-group-addon" data-currency-iso="NGN">&#8358;</span>
+                    @Html.TextBoxFor(model => model.DebitAmount, new { @class = "form-control" })
+                </div class="input-group">
+                @*@Html.EditorFor(model => model.DebitAmount)*@
+                @Html.ValidationMessageFor(model => model.DebitAmount)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Narration, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Narration, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Narration)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Post Transaction" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

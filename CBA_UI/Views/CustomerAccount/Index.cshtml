@@ -1,0 +1,86 @@
+﻿@model IEnumerable<CBA.Core.CustomerAccount>
+
+@{
+    ViewBag.Title = "All Customer Accounts";
+}
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible" role="alert">
+        <h4>@TempData["SuccessMessage"]</h4>
+    </div>
+    @*<h1 class="text-success">@TempData["SuccessMessage"].</h1>*@
+}
+<h2>All Customer Accounts</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table table-striped table-bordered table-condensed">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Balance) (<span data-currency-iso="NGN">&#8358;</span>)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AccountNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AccountType.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.AccumulatedInterest)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccumulatedCharge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastInterestPaidDate)
+            </th>*@
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @(item.Balance.ToString("#,##0.00;(#,##0.00))")) 
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountType.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsActive)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.AccumulatedInterest)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AccumulatedCharge)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastInterestPaidDate)
+                </td>*@
+            @if (item.IsActive)
+            {
+                <td>
+                    @Html.ActionLink("Edit", "EditCustomerAccount", new { id = item.ID }) |
+                    @Html.ActionLink("Close", "CloseCustomerAccount", new { id = item.ID })
+                </td>
+
+            }
+
+        </tr>
+    }
+
+</table>
